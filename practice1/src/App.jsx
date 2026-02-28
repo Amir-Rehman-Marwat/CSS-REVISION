@@ -19,7 +19,7 @@ function App() {
        <span className='relative top-3'>Or continue with</span>
        
         <button className='bg-[#4EA6D4]  font-bold text-white w-[150px] h-[40px] rounded-lg flex justify-center items-center'><FaGoogle className='relative right-2' /> Google</button>
-        <button className='bg-[#4EA6D4]  font-bold text-white w-[150px] h-[40px] rounded-lg flex justify-evenly  items-center'> <Github   className='relative left-1'/> <span className='relative right-3'>Git hub</span></button>
+        <button className=' active:invisible bg-[#4EA6D4]  font-bold text-white w-[150px] h-[40px] rounded-lg flex justify-evenly  items-center'> <Github   className='relative left-1'/> <span className='relative right-3'>Git hub</span></button>
 <span>Dont't have an account?</span> <a className='font-light text-white relative bottom-6 underline' href="">Sign up</a>
       </form>
     </div> 
